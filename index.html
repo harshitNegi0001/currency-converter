@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="page" class="light">
+        <div class="container">
+            <h2>Currency Converter</h2>
+            <img src="loading.png" alt="loading..." style="display: none;" id="loading">
+
+            <div class="input-curr">
+                <input type="number" name="" placeholder="from" id="input-from" class="light-input">
+                <img src="arrow.png" alt="arrow" id="arrow1">
+                <input type="number" placeholder="to" name="" id="input-to" class="light-input" disabled>
+            </div>
+
+            <div class="input">
+                <div class="from">
+                    <img src="http://flags.ox3.in/svg/us.svg" alt="" id="one">
+                    <select name="" id="select-from">
+                    </select>
+                </div>
+                <img src="arrow.png" alt="arrow" id="arrow2">
+                <div class="to">
+                    <img src="http://flags.ox3.in/svg/in.svg" alt="" id="two">
+                    <select name="" id="select-to">
+                    </select>
+                </div>
+
+
+            </div>
+            <div id="rate">
+                <p>Rate =></p>
+            </div>
+            <button id="btn" class="light-btn">Convert</button>
+        </div>
+
+        <div style="position: fixed; top: 0; left: 47%; display: flex; flex-direction:column; align-items: center;">
+            <span>Light Mode</span>
+            <div class="toggle">
+                <div class="ball"></div>
+            </div>
+        </div>
+
+    </div>
+    <script src="dark-light-mode.js"></script>
+
+    <script src="country-code.js"></script>
+    <script src="currency-converter.js"></script>
+
+</body>
+
+</html>
