@@ -1,5 +1,5 @@
 //Currency Converter 
-//for flag->  http://flags.ox3.in/svg/xx.svg
+//for flag->  https://flagcdn.com/h40/xx.png
 //for currency converting ->  https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/curr.json
 
 let from = document.querySelector("#select-from");

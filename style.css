@@ -3,15 +3,7 @@
     margin: 0;
 }
 
-/* body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(226, 226, 226);
-    height: 100vh;
-    padding-top: 100px; 
-} */
+
 #page{
     display: flex;
     flex-direction: column;
@@ -130,7 +122,6 @@ h2 {
     width: 350px;
     height: 450px;
     align-items: center;
-    /* margin-top: 30px; */
 }
 
 .light .container {
@@ -150,7 +141,6 @@ h2 {
     position: fixed;
     top: 48%;
     left: 48%;
-    /* transform: translate(-50%, -50%);  */
     width: 50px;
     height: 50px;
     animation: spin 1s linear infinite;
@@ -177,7 +167,6 @@ h2 {
     width: 60px;
     height: 28px;
     margin-right: 10px;
-    /* border: 1px solid black; */
     border-radius: 5px;
 }
 
@@ -198,17 +187,7 @@ h2 {
 select {
     border-radius: 5px;
 }
-/* .dark .container select {
-    background-color: rgba(255, 255, 255, 0.1);
-    color: black;
-    border: 1px solid white;
-}
 
-.light .container select {
-    background-color: rgba(0, 0, 0, 0.05);
-    color: black;
-    border: 1px solid black;
-} */
 #rate {
     margin-top: 20px;
     font-size: 20px;
@@ -249,4 +228,7 @@ select {
 .dark .container select option {
     color: white;
     background-color: black;
+}
+.dark span{
+    color: white;
 }
