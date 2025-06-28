@@ -29,7 +29,7 @@ from.addEventListener('change', async () => {
     if (from.value) {
         loading.style.display = 'block';
 
-        flag1.src = `https://flags.ox3.in/svg/${from.value}.svg`;
+        flag1.src = `https://flagcdn.com/h40/${from.value}.png`;
 
         await new Promise((resolve) => {
             flag1.onload = resolve;
@@ -42,7 +42,7 @@ to.addEventListener('change', async () => {
     if (from.value) {
         loading.style.display = 'block';
 
-        flag2.src = `https://flags.ox3.in/svg/${to.value}.svg`;
+        flag2.src = `https://flagcdn.com/h40/${to.value}.png`;
 
         await new Promise((resolve) => {
             flag2.onload = resolve;
