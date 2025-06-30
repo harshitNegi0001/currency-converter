@@ -4,8 +4,8 @@
 
 let from = document.querySelector("#select-from");
 let to = document.querySelector("#select-to");
-// let btn=document.querySelector("#btn");
-// let input_from=document.querySelector("#input-from");
+let btn=document.querySelector("#btn");
+let input_from=document.querySelector("#input-from");
 let arrow2 = document.querySelector("#arrow2");
 let loading = document.querySelector("#loading");
 let flag1 = document.querySelector("#one");
